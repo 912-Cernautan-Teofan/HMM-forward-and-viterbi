@@ -35,3 +35,11 @@ Given these observations, the program answers:
    - `1` to run the Forward algorithm (calculates the overall probability),
    - `2` to run the Viterbi algorithm (finds the most likely sequence of states).
 5. View the results printed to the console.
+
+## License
+
+This project is provided for educational purposes and is licensed under the MIT License.
+
+---
+
+Feel free to customize or extend this project for your own natural language programming or HMM experiments!

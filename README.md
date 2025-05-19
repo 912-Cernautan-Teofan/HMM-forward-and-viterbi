@@ -25,6 +25,7 @@ Given these observations, the program answers:
 - Uses simple console input/output for interaction.
 - The transition and emission probabilities, as well as the observation sequence, are hard-coded for clarity and simplicity.
 - Modular functions separate the Forward and Viterbi algorithms for ease of understanding and potential extension.
+- Libraries used are only for the usual standard functions (iostream) and for variables (string, vector, unordered_map).
 
 ## How to Use
 

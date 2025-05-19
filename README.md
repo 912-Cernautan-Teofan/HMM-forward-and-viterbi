@@ -1,6 +1,9 @@
 # Hidden Markov Model (HMM) Example in C++
 
-This project contains a simple C++ implementation of two fundamental algorithms for Hidden Markov Models (HMMs): the **Forward** and **Viterbi** algorithms.
+This project contains:
+
+- a simple C++ implementation of two fundamental algorithms for Hidden Markov Models (HMMs): the **Forward** and **Viterbi** algorithms.
+- a course regarding the Hidden Markov Models and the algorithms used.
 
 ## Overview
 
@@ -21,11 +24,11 @@ Given these observations, the program answers:
 
 ## Implementation Details
 
-- Written in modern C++ (C++17 standard or higher recommended. If not the main function needs slight adjustment).
+- Written in modern C++ (C++17 standard or higher recommended. If not, the main function needs slight adjustment).
 - Uses simple console input/output for interaction.
 - The transition and emission probabilities, as well as the observation sequence, are hard-coded for clarity and simplicity.
 - Modular functions separate the Forward and Viterbi algorithms for ease of understanding and potential extension.
-- Libraries used are only for the usual standard functions (iostream) and for variables (string, vector, unordered_map).
+- Libraries used are only for the usual standard functions (`iostream`, `string`, `vector`, `unordered_map`).
 
 ## How to Use
 
@@ -36,6 +39,11 @@ Given these observations, the program answers:
    - `1` to run the Forward algorithm (calculates the overall probability),
    - `2` to run the Viterbi algorithm (finds the most likely sequence of states).
 5. View the results printed to the console.
+
+## Acknowledgments
+
+This project was developed with the help from a course on Hidden Markov Models.
+Special thanks to the author of that course for providing clear explanations and valuable learning resources that helped in this project.
 
 ## License
 
